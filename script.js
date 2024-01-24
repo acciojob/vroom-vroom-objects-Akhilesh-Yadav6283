@@ -21,5 +21,5 @@ window.Car = Car;
 window.SportsCar = SportsCar;
 const car = new Car('Toyota', 143);
 console.log(car);
-const sportCar = new SportsCar('BMD', 1437, '80km/h');
+const sportCar = new SportsCar("Ferrari", "Testarossa", 200);
 console.log(sportCar);
