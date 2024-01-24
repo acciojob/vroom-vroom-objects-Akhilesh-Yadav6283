@@ -19,3 +19,7 @@ return this._topSpeed;
 // Do not change the code below
 window.Car = Car;
 window.SportsCar = SportsCar;
+const car = new Car('Toyota', 143);
+console.log(car);
+const sportCar = new SportsCar('BMD', 1437, '80km/h');
+console.log(sportCar);
