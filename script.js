@@ -19,7 +19,9 @@ return this._topSpeed;
 // Do not change the code below
 window.Car = Car;
 window.SportsCar = SportsCar;
-const car = new Car('Toyota', 143);
-console.log(car);
-const sportCar = new SportsCar("Ferrari", "Testarossa", 200);
-console.log(sportCar);
+var myCar = new Car('Toyota', 'Camry');
+console.log(myCar.getMakeModel()); // Output: Toyota Camry
+
+var mySportsCar = new SportsCar('Ferrari', '488 GTB', 205);
+console.log(mySportsCar.getMakeModel()); // Output: Ferrari 488 GTB
+console.log(mySportsCar.getTopSpeed()); // Output: 205
